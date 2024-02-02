@@ -108,6 +108,7 @@ export default {
       this.mainMenu = false;
       if(this.mode == 'survive'){
         this.evils[0] = [this.end[0], this.end[1]]
+        setInterval(() => this.moveEvil(0), 500);
       }
       this.player = [this.start[0], this.start[1]]
       addEventListener("keyup", this.handleMove)
