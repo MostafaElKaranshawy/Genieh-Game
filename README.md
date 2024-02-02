@@ -9,7 +9,7 @@
     
 
 
-      https://github.com/MostafaElKaranshawy/Genieh-Game/assets/110842052/95896ec1-c465-4ee3-af93-031333d539b2
+https://github.com/MostafaElKaranshawy/Genieh-Game/assets/110842052/95896ec1-c465-4ee3-af93-031333d539b2
 
 
 
@@ -26,6 +26,6 @@
 
           
 
-      https://github.com/MostafaElKaranshawy/Genieh-Game/assets/110842052/38ae6527-040b-4a39-b980-2c7cc78bb70d
+https://github.com/MostafaElKaranshawy/Genieh-Game/assets/110842052/38ae6527-040b-4a39-b980-2c7cc78bb70d
 
 
