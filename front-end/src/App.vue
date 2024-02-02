@@ -113,7 +113,7 @@ export default {
       this.mainMenu = false;
       if(this.mode == 'survive'){
         this.evils[0] = [this.end[0], this.end[1]]
-        setInterval(() => this.moveEvil(0), 500);
+        setInterval(() => this.moveEvil(0), 900);
       }
       this.player = [this.start[0], this.start[1]]
       addEventListener("keyup", this.handleMove)
@@ -136,7 +136,7 @@ export default {
       this.evils.push([0,1])
       if(this.level != 'easy')this.evils.push([2,8])
       if(this.level == 'hard')this.evils.push([9,8])
-      for(let i = 0; i < this.evils.length; i++){setInterval(() => this.moveEvil(i), 500);}
+      for(let i = 0; i < this.evils.length; i++){setInterval(() => this.moveEvil(i), 900);}
       // for(let i = 0; i < 1; i++){
       //   let p = this.getRandomInt(0, this.ways.length-1)
       //   while(this.ways[p][0] ==this.player[0] && this.ways[p][1] == this.player[1]){
