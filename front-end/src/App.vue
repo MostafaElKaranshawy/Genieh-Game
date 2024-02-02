@@ -11,7 +11,7 @@
       <div class="content">{{ this.messaage }}</div>
       <div class="ok" @click="reset, showAlert = false, stopMusic">Ok, To Main Menu</div>
     </div>
-    <div class="controls">
+    <div class="controls" v-if="controls">
       <div class="up key" @click="moveUp"> up </div>
       <div class="do">
         <div class="left key" @click="moveLeft"> left </div>
@@ -63,6 +63,7 @@
 export default {
   data() {
     return{
+    controls: false,
       level: 'easy',
       messaage: '',
       showAlert: false,
@@ -96,7 +97,6 @@ export default {
   mounted(){
     // get way blocks
     this.getWay()
-
     if(this.win && this.mode != ''){
       
     }
@@ -107,6 +107,7 @@ export default {
       document.querySelector(".ILOSE").pause();
     },
     setMode(mode){
+      this.controls = true
       this.win = true;
       this.mode = mode;
       this.mainMenu = false;
@@ -260,6 +261,7 @@ export default {
       }
     },
     reset(){
+      this.controls = false;
       this.stars = [];
       // this.evils = [];
       this.mode = '';
@@ -325,6 +327,7 @@ export default {
   flex-direction: column;
   background: rgb(33, 33, 33);
   height: 100vh;
+  user-select: none;
 }
 header{
   position: absolute;
@@ -396,7 +399,7 @@ select option {
   position: absolute;
   left: 50%;
   bottom: 0;
-  transform: translate(-50%,-50%)
+  transform: translateX(-50%)
 }
 .do{
   display:flex;
