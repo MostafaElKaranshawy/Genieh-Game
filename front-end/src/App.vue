@@ -9,16 +9,16 @@
     <header>Genieh Game</header>
     <div class="message" v-if="showAlert">
       <div class="content">{{ this.messaage }}</div>
-      <div class="ok" @click="reset, showAlert = false">Ok, To Main Menu</div>
+      <div class="ok" @click="reset, showAlert = false, stopMusic">Ok, To Main Menu</div>
     </div>
-    <!-- <div class="controls">
+    <div class="controls">
       <div class="up key" @click="moveUp"> up </div>
       <div class="do">
         <div class="left key" @click="moveLeft"> left </div>
         <div class="down key" @click="moveDown"> down </div>
         <div class="right key" @click="moveRight"> right </div>
       </div>
-    </div> -->
+    </div>
     <div class="mainMenu" v-if="mainMenu">
       <div class="survive mode" @click="setMode('survive')">Survive Mode</div>
       <div class="collect mode">
@@ -102,6 +102,10 @@ export default {
     }
   },
   methods: {
+    stopMusic(){
+      document.querySelector(".IWIN").pause();
+      document.querySelector(".ILOSE").pause();
+    },
     setMode(mode){
       this.win = true;
       this.mode = mode;
@@ -389,6 +393,10 @@ select option {
   height: 100px;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%,-50%)
 }
 .do{
   display:flex;
@@ -494,5 +502,10 @@ select option {
   background: white;
   z-index: 100;
   display: none;
+}
+@media screen and (max-width: 600px) {
+  .board{
+    transform: scale(0.75);
+  }
 }
 </style>
