@@ -1,5 +1,5 @@
 # Genieh-Game
-## Play • Now https://sparkling-tartufo-6c8db0.netlify.app/ •
+## Try Now • https://sparkling-tartufo-6c8db0.netlify.app/ •
 ### Genieh Game has two modes: 
       • Survive Mode
       • Collect Mode
