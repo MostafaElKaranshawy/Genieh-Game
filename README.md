@@ -10,6 +10,10 @@
 
 
 
+https://github.com/MostafaElKaranshawy/Genieh-Game/assets/110842052/07aa3377-8885-42a2-8774-f20febcead2b
+
+
+
 
 
 #### Collect Mode 
@@ -25,6 +29,9 @@
 
           
 
-https://github.com/MostafaElKaranshawy/Genieh-Game/assets/110842052/38ae6527-040b-4a39-b980-2c7cc78bb70d
+
+
+https://github.com/MostafaElKaranshawy/Genieh-Game/assets/110842052/db2b7b4e-716d-4a8d-b5f5-d61e378fdf4e
+
 
 
