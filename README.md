@@ -9,16 +9,12 @@
 
 
 
-    
-https://github.com/MostafaElKaranshawy/Genieh-Game/assets/110842052/db2b7b4e-716d-4a8d-b5f5-d61e378fdf4e
-
-
-
-
-
 
 
 https://github.com/MostafaElKaranshawy/Genieh-Game/assets/110842052/07aa3377-8885-42a2-8774-f20febcead2b
+
+
+
 
 
 
@@ -35,6 +31,17 @@ https://github.com/MostafaElKaranshawy/Genieh-Game/assets/110842052/07aa3377-888
           ○ The game has two Bad Pharoahs
         • Hard
           ○ The game has three Bad Pharoahs
+
+
+
+
+
+
+
+https://github.com/MostafaElKaranshawy/Genieh-Game/assets/110842052/e232ac4e-8dc0-4f3a-bab1-61568643fb65
+
+
+
 
 
 
