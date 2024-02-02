@@ -6,6 +6,11 @@
 #### Survive Mode:
 
     ♦ You should take the Genieh safe to the finish block without Dollar clash
+    
+
+
+      https://github.com/MostafaElKaranshawy/Genieh-Game/assets/110842052/95896ec1-c465-4ee3-af93-031333d539b2
+
 
 
 #### Collect Mode 
@@ -18,3 +23,9 @@
           ○ The game has two Bad Pharoahs
         • Hard
           ○ The game has three Bad Pharoahs
+
+          
+
+      https://github.com/MostafaElKaranshawy/Genieh-Game/assets/110842052/38ae6527-040b-4a39-b980-2c7cc78bb70d
+
+
